@@ -5,7 +5,7 @@ import numpy as np
 st.set_page_config(page_title =  "Student Placement Prediction" , page_icon = "🎓" , layout = "centered")
 
 # Load Model
-model = pkl.load(open("placement_model.pkl", "rb"))
+model = pkl.load(open("Placement_model.pkl", "rb"))
 
 # Custom CSS
 st.markdown("""
